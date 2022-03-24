@@ -15,12 +15,11 @@ namespace ConsoleApp5
             Console.Write("Сколько Вам лет? "); 
             string age = Console.ReadLine(); 
             Console.Write("Какая у Вас профессия? "); 
-            string pro = Console.ReadLine(); 
+            string profession = Console.ReadLine(); 
             Console.Write("Какой Ваш знак зодиака? "); 
             string zodiak = Console.ReadLine(); 
             Console.WriteLine("Ваше имя " + name + ", Вам " + age + 
                 " лет, Ваша профессия: " + pro + ", Ваш знак зодиака " + zodiak + ".");
-
         }
     }
 }
