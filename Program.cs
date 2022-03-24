@@ -19,7 +19,7 @@ namespace ConsoleApp5
             Console.Write("Какой Ваш знак зодиака? "); 
             string zodiak = Console.ReadLine(); 
             Console.WriteLine("Ваше имя " + name + ", Вам " + age + 
-                " лет, Ваша профессия: " + pro + ", Ваш знак зодиака " + zodiak + ".");
+                " лет, Ваша профессия: " + profession + ", Ваш знак зодиака " + zodiak + ".");
         }
     }
 }
